@@ -8,14 +8,14 @@
   },
   "dependencies": {
     "adjectives": "1.0.2",
-    "body-parser": "~1.17.1",
+    "body-parser": "~1.19.0",
     "common-tags": "1.8.0",
-    "cookie-parser": "~1.4.3",
-    "debug": "~2.6.3",
-    "express": "~4.15.2",
+    "cookie-parser": "~1.4.4",
+    "debug": "~4.1.1",
+    "express": "~4.17.1",
     "http-errors": "1.7.3",
     "human-names": "1.0.11",
-    "morgan": "~1.8.1",
-    "public-ip": "^2.3.5"
+    "morgan": "~1.9.1",
+    "public-ip": "^4.0.0"
   }
 }
