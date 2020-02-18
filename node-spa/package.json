@@ -1,0 +1,14 @@
+{
+  "name": "node",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "./bin/www",
+    "deploy": "caprover deploy --default"
+  },
+  "dependencies": {
+    "debug": "~4.1.1",
+    "express": "~4.17.1",
+    "express-history-api-fallback": "2.2.1"
+  }
+}
