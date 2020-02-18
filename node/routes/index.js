@@ -11,7 +11,7 @@ const router = Router();
 router.get('/', (_, res) => {
 	const myName = `${getRandom(adjectives)} ${names.allRandom()}`;
 	const message = stripIndents`
-		Hi I'm ${myName}! My name changes with every refresh!
+		Hi I'm ${myName}! My name changes with every request!
 		My Public IP is ${res.locals.myPublicIp}. ENV.custom_key=${process.env.custom_key}
 	`;
 
