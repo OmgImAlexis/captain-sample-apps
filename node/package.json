@@ -1,0 +1,20 @@
+{
+  "name": "node",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "adjectives": "1.0.2",
+    "body-parser": "~1.17.1",
+    "common-tags": "1.8.0",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.3",
+    "express": "~4.15.2",
+    "http-errors": "1.7.3",
+    "human-names": "1.0.11",
+    "morgan": "~1.8.1",
+    "public-ip": "^2.3.5"
+  }
+}
